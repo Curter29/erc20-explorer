@@ -24,6 +24,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:Curter29/erc20-explorer.git',
       path : '/var/www/erc20.enface.io',
+      ssh_options: ['ForwardAgent=yes'],
       'post-deploy' : 'npm install && npm audit fix && pm2 reload ecosystem.config.js --env production'
     }
   }

@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: 'ERC20',
-    script: 'app.js',
+    script: './bin/www',
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
     args: '',
     instances: 1,
@@ -12,6 +12,7 @@ module.exports = {
       NODE_ENV: 'development'
     },
     env_production: {
+      PORT: 3001,
       NODE_ENV: 'production'
     }
   }],

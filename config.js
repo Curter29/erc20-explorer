@@ -5,7 +5,7 @@ var config = function () {
 
   this.logFormat = "combined";
   //this.ipcPath = process.env["HOME"] + "/.local/share/io.parity.ethereum/jsonrpc.ipc";
-  this.provider = new web3.providers.HttpProvider("http://192.168.0.20:59321");
+  this.provider = new web3.providers.HttpProvider("http://blockchain.enface.io:59321");
   //IpcProvider(this.ipcPath, net);
 
   this.bootstrapUrl = "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css";

@@ -21,7 +21,7 @@ module.exports = {
     production : {
       user : 'deploy',
       host : 'enface.io',
-      ref  : 'origin/master',
+      ref  : 'origin/development',
       repo : 'git@github.com:Curter29/erc20-explorer.git',
       path : '/var/www/erc20.enface.io',
       ssh_options: ['ForwardAgent=yes'],

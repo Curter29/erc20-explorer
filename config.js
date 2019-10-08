@@ -22,7 +22,7 @@ var config = function () {
   this.exportStartBlock = 0; // Start block for the historic export (set to 0 for a full export)
 
   this.names = {
-    " 0x0000000000000000000000000000000000000000": "system"
+    "0x0000000000000000000000000000000000000000": "system"
   }
 }
 
